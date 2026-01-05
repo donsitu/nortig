@@ -544,4 +544,29 @@ footer {
   padding: 10px 18px;
   border-radius: 6px;
 }
+/* Evita corrimientos por overflow horizontal */
+html, body {
+  width: 100%;
+  overflow-x: hidden;
+}
+
+/* CERTIFICACIÓN responsive (en móvil se apila) */
+@media (max-width: 768px) {
+  .certificacion-card {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 1rem;
+    padding: 1.5rem;
+  }
+
+  .cert-logo img {
+    width: 150px;
+    max-width: 100%;
+  }
+
+  .cert-info p {
+    max-width: 100%;
+  }
+}
 
