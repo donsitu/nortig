@@ -521,3 +521,27 @@ footer {
   margin-top: 4rem;
   margin-bottom: 4rem;
 }
+
+.proyecto-prox {
+  position: relative;
+}
+
+.proyecto-prox img {
+  width: 100%;
+  filter: grayscale(100%) brightness(0.6);
+}
+
+.proyecto-prox span {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #fff;
+  font-size: 1.2rem;
+  font-weight: bold;
+  letter-spacing: 2px;
+  background: rgba(0, 0, 0, 0.6);
+  padding: 10px 18px;
+  border-radius: 6px;
+}
+
